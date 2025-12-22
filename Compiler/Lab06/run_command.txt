@@ -1,0 +1,7 @@
+ Write a C program to generate target code from intermediate
+ code[i.e x=y op z form]
+
+terminal command
+
+gcc codegen.c -o codegen
+./codegen

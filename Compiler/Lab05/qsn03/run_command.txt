@@ -1,0 +1,10 @@
+Write a YACC program to recognize a valid variable, w
+hich starts with a letter, followed 
+by any number of letters or digits.  
+
+terminal command
+
+bison -d parser.y
+flex lexer.l
+gcc lex.yy.c parser.tab.c -o a.out
+./a.out

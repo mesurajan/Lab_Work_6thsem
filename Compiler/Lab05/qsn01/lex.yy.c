@@ -351,8 +351,8 @@ static void yynoreturn yy_fatal_error ( const char* msg  );
 	(yy_hold_char) = *yy_cp; \
 	*yy_cp = '\0'; \
 	(yy_c_buf_p) = yy_cp;
-#define YY_NUM_RULES 4
-#define YY_END_OF_BUFFER 5
+#define YY_NUM_RULES 5
+#define YY_END_OF_BUFFER 6
 /* This struct is not used in this scanner,
    but its presence is necessary. */
 struct yy_trans_info
@@ -362,7 +362,7 @@ struct yy_trans_info
 	};
 static const flex_int16_t yy_accept[9] =
     {   0,
-        0,    0,    5,    4,    3,    1,    2,    0
+        0,    0,    6,    4,    3,    1,    2,    0
     } ;
 
 static const YY_CHAR yy_ec[256] =
@@ -436,9 +436,9 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "ab.l"
-#line 2 "ab.l"
-#include "ab.tab.h"
+#line 1 "lexer.l"
+#line 2 "lexer.l"
+#include "parser.tab.h"
 #line 442 "lex.yy.c"
 #line 443 "lex.yy.c"
 
@@ -657,7 +657,7 @@ YY_DECL
 		}
 
 	{
-#line 5 "ab.l"
+#line 5 "lexer.l"
 
 #line 662 "lex.yy.c"
 
@@ -718,26 +718,31 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 6 "ab.l"
-return 'a';
+#line 6 "lexer.l"
+return A;
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "ab.l"
-return 'b';
+#line 7 "lexer.l"
+return B;
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 8 "ab.l"
+#line 8 "lexer.l"
 return 0;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 9 "ab.l"
+#line 9 "lexer.l"
+;
+	YY_BREAK
+case 5:
+YY_RULE_SETUP
+#line 10 "lexer.l"
 ECHO;
 	YY_BREAK
-#line 740 "lex.yy.c"
+#line 745 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1742,9 +1747,8 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 9 "ab.l"
+#line 10 "lexer.l"
 
 int yywrap() {
     return 1;
 }
-

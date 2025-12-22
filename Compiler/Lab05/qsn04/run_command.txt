@@ -1,0 +1,9 @@
+Write a YACC program to evaluate a given arithmetic 
+expression consisting of ‘+’, ‘-‘, ‘*’, ‘/’ including brackets.
+
+terminal command
+
+bison -d parser.y
+flex lexer.l
+gcc lex.yy.c parser.tab.c -o a.out
+./a.out

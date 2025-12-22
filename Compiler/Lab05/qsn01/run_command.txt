@@ -1,0 +1,9 @@
+Write a YACC program to recognize strings
+ ‘aabb’, ‘aaabbb’, and  ‘ab’ using the 
+grammar (a^nb^n, n>= 0).  
+
+terminal command
+bison -d parser.y
+flex lexer.l
+gcc lex.yy.c parser.tab.c -o a.out
+./a.out
