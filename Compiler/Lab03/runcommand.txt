@@ -1,0 +1,5 @@
+Run command
+
+lex posneg.l
+gcc lex.yy.c -o posneg.l 
+./posneg.l 
