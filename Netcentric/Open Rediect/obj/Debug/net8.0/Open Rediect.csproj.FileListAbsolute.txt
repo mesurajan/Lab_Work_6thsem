@@ -1,0 +1,33 @@
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.AssemblyInfoInputs.cache
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.AssemblyInfo.cs
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.csproj.CoreCompileInputs.cache
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.RazorAssemblyInfo.cache
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.RazorAssemblyInfo.cs
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\appsettings.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.staticwebassets.runtime.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.staticwebassets.endpoints.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.exe
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.deps.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.runtimeconfig.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.dll
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\bin\Debug\net8.0\Open Rediect.pdb
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\scopedcss\bundle\Open Rediect.styles.css
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\scopedcss\projectbundle\Open Rediect.bundle.scp.css
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.dll
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\refint\Open Rediect.dll
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.pdb
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\Open Rediect.genruntimeconfig.cache
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\Open Rediect\obj\Debug\net8.0\ref\Open Rediect.dll

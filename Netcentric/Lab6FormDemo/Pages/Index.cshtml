@@ -1,0 +1,115 @@
+﻿@page
+@model Lab6FormDemo.Pages.IndexModel
+@{
+    ViewData["Title"] = "User Input Form";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f0f8ff;
+        padding: 20px;
+        position: relative;
+        min-height: 100vh;
+    }
+    h2 { color: #2e8b57; text-align: center; }
+    form {
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    label { font-weight: bold; color: #333; }
+    input { width: 100%; padding: 8px; margin-top: 5px; border-radius: 6px; border: 1px solid #ccc; }
+    button {
+        background-color: #2e8b57;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover { background-color: #3cb371; }
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+    th, td { border: 1px solid #2e8b57; padding: 12px; text-align: center; font-size: 16px; }
+    th { background-color: #2e8b57; color: white; }
+    td { background-color: #f9f9f9; }
+    .error { color: red; font-size: 14px; }
+
+    /* Watermark style */
+    .watermark {
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        color: rgba(0,0,0,0.2);
+        pointer-events: none;
+    }
+</style>
+
+<h2>User Input Form</h2>
+
+<form method="post">
+    <div>
+        <label for="Name">Enter your name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="error"></span>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label for="Age">Enter your age:</label>
+        <input asp-for="Age" type="number" />
+        <span asp-validation-for="Age" class="error"></span>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label for="Address">Enter your address:</label>
+        <input asp-for="Address" />
+        <span asp-validation-for="Address" class="error"></span>
+    </div>
+
+    <div style="margin-top:15px; text-align:center;">
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+@if (Lab6FormDemo.Pages.IndexModel.Entries.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Lab6FormDemo.Pages.IndexModel.Entries.Count; i++)
+            {
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@Lab6FormDemo.Pages.IndexModel.Entries[i].Name</td>
+                    <td>@Lab6FormDemo.Pages.IndexModel.Entries[i].Age</td>
+                    <td>@Lab6FormDemo.Pages.IndexModel.Entries[i].Address</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

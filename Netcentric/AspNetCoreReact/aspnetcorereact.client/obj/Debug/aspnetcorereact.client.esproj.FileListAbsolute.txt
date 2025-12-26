@@ -1,0 +1,2 @@
+C:\Users\suraj\Desktop\Netcentric Lab 5th sem\AspNetCoreReact\aspnetcorereact.client\obj\Debug\aspnetcorereact.client.esproj.CoreCompileInputs.cache
+C:\Users\suraj\Desktop\Netcentric Lab 6th sem\AspNetCoreReact\aspnetcorereact.client\obj\Debug\aspnetcorereact.client.esproj.CoreCompileInputs.cache

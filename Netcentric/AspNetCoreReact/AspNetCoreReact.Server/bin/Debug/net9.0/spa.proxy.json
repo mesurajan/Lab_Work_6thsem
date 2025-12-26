@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53198",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\suraj\\Desktop\\Netcentric Lab 6th sem\\AspNetCoreReact\\AspNetCoreReact.Server\\..\\aspnetcorereact.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
