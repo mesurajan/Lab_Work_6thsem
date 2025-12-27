@@ -1,0 +1,39 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+
+      <div class="card shadow">
+        <div class="card-header bg-success text-white text-center">
+          <h4>Student Registration</h4>
+        </div>
+
+        <div class="card-body">
+          <form [formGroup]="studentForm" (ngSubmit)="formSubmit()">
+
+            <div class="mb-3">
+              <label class="form-label fw-bold">Student Name</label>
+              <input type="text"
+                     class="form-control"
+                     formControlName="firstname"
+                     placeholder="Enter student name" />
+
+              <div class="text-danger mt-1"
+                   *ngIf="Firstname.invalid && Firstname.touched">
+                Name is required
+              </div>
+            </div>
+
+            <div class="d-grid">
+              <button class="btn btn-success" type="submit">
+                Submit
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspCoreMVCEF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75f96c70c42208ca4caba6a21f06714a1ac2f5d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82aefa9f1d1f0e664f76ea40b5051e79e7164f0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspCoreMVCEF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspCoreMVCEF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:57155",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "E:\\Vsc\\Lab_Work_6thsem\\Netcentric\\Lab10\\Lab10.Server\\..\\lab10.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
